@@ -1,26 +1,26 @@
 # Replace with the name which you want to give to your EKS cluster
 # Cluster name can have only lowercase alphanumeric characters and hyphens
 # For example: "digit-demo"
-cluster_name: "test-demo"
+cluster_name: "padma-githubactions-test"
 
 # Replace with ssh key name you want
-ssh_key_name: "test-demo-ssh-key" 
+ssh_key_name: "padma-githubactions-test-ssh-key" 
 
 # Replace with public key which you want to add in your EC2 machines # ssh key which you want to add in your EC2 machines
-public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEyfjLaKskpv90BCvgVm2IFtf5V+B41YM7pSt73QID5/lByMuLRIcBum9n48A/BlxhkyI4TuF1GHXFKJju7UZA9ybVkhugpJhqFp+rjVcXNgYbeGToYcLRE88aFbhNDw9ZtSJF5Kd2fZUT9Vj7cMi1LqRLAprOp8FZWpdn1+QBDTJQVPUzWux0hmh56L00fjxTIMPhTbH8EQcyd4SVBuJvAO4Gs3/oNLOUhyA4yF49/bvY2x8Y4v9IDZgnHqTuAMeMQNn+nPoxP1eNVwOM/3Lx/a505uvMiim/cLSNFmn6sozo8VSwsK0lJGiiGaZiV7GLGEwVL+QA8/pDxXId5Rxb"
+public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCAkVhqZCEGVzG8GzFSRBtyBGlwNOmVgZB+HOBwUJMW3kG1ukfdGpD6BzuJD97BxIcNpHd9lFg919lYJuQuxppp6fIRgG2b8tQAyfz48GhNmbNDzTdZWWBYPYqYJ5sEcv5gDZMVFeRKi3+76EFRgqa1Ioq7nOGKSQhqAZsOWKgRBiN7t8kZsKDihkUOfMrWlKLAIDl97BuPUo6mFt+b/I3lxS5EmKvjwKy1jr/IuvTz0RoxyfMekaa+O0wFxcABhJc/vG+BXqTgtcR9RGsxd+8sXTpTLr2xeD2NC7CZjjpVMUrKOE1s/3tmilusb+/CQPUY/HHbsdTXloQVwkVRw8zX"
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
-db_name: "testdemodb"
+db_name: "padmagithubactionsdb"
 
 # Replace with DB username you want
 # DB user name must contain only alphanumeric characters
-db_username: "testdemo" 
+db_username: "padmadbdemo" 
 
 # Replace with Domain name you want for your web applications
-domain_name: "test-githubactions.digit.org"
+domain_name: "padma-githubactions.digit.org"
 
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform state
-terraform_state_bucket_name: "test-demo-githubactions-bucket"
+terraform_state_bucket_name: "padma-githubactions-bucket"
 
 
