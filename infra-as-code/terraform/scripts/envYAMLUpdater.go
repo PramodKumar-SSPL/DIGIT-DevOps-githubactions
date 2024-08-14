@@ -40,7 +40,8 @@ func main() {
 		fmt.Fprintf(os.Stderr, "Error reading YAML file: %v\n", err)
 		os.Exit(1)
 	}
-	// Replace the placeholders with the actual volume IDs
+	
+	output := string(yamlFile)
 	output = strings.ReplaceAll(output, "<db_host_name>", tfOutput.DBHost.Value)
 	output = strings.ReplaceAll(output, "<db_name>", tfOutput.DBName.Value)
 
