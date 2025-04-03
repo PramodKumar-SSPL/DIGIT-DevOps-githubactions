@@ -49,7 +49,7 @@ jobs:
         with:
           name: config-as-code-artifact
           path: config-as-code.tar.gz
-      # - name: Install AWS IAM Authenticator
+      ## - name: Install AWS IAM Authenticator
       #   run: |
       #     curl -o aws-iam-authenticator https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/aws-iam-authenticator
       #     chmod +x ./aws-iam-authenticator
